@@ -17,18 +17,18 @@ go get github.com/fydrah/ghr
 ```shell
 Usage of ghr:
   -owner string
-    	GitHub repository owner name. GHR_OWNER
+      GitHub repository owner name. GHR_OWNER
   -repository string
-    	GitHub repository name. GHR_REPOSITORY
+      GitHub repository name. GHR_REPOSITORY
   -tag string
-    	Git annotated tag to release. GHR_TAG
+      Git annotated tag to release. GHR_TAG
   -token string
-    	GitHub Token. GHR_TOKEN
+      GitHub Token. GHR_TOKEN
 ```
 
 ## Requirements
 
-* Tag should be an **annotated** tag
+* Tag must be an **annotated** tag
 * Your token must have correct [scopes](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/)
 * You must own the repository or have correct access to organization repository
 
